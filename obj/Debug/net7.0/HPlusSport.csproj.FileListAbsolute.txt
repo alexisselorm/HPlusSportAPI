@@ -31,3 +31,14 @@ C:\Users\AGKove\source\repos\HPlusSport\obj\Debug\net7.0\refint\HPlusSport.dll
 C:\Users\AGKove\source\repos\HPlusSport\obj\Debug\net7.0\HPlusSport.pdb
 C:\Users\AGKove\source\repos\HPlusSport\obj\Debug\net7.0\HPlusSport.genruntimeconfig.cache
 C:\Users\AGKove\source\repos\HPlusSport\obj\Debug\net7.0\ref\HPlusSport.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll

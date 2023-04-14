@@ -9,7 +9,7 @@ namespace HPlusSport.API.Models
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public decimal Price { get; set; }
-        public bool isAvailable { get; set; }
+        public bool IsAvailable { get; set; }
         // Relationship: Product belongs to a category
         public int CategoryId { get; set; }
         [JsonIgnore]
