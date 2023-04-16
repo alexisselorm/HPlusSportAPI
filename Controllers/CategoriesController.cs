@@ -19,15 +19,21 @@ namespace HPlusSport.API.Controllers
 
     // Get all categories
     [HttpGet]
-    public  ActionResult GetAllCategories(){
-        var categories = _context.Categories.Include(c=>c.Products).ToArray();
+    public async Task<ActionResult> GetAllCategories(){
+        var categories =await _context.Categories.Include(c=>c.Products).ToArrayAsync();
     return Ok(categories);
     }
     [HttpGet("{id}")]
-    public ActionResult GetCategories(int id){
-        var category = _context.Categories.Find(id);
-        _context.Entry(category).Collection(c => c.Products).Load();
+    public async  Task<ActionResult> GetCategories([FromRoute]int id){
+        var category =await _context.Categories.FindAsync(id);
+        if (category != null){
+
+        await _context.Entry(category).Collection(c => c.Products).LoadAsync();
         return Ok(category);
+        }
+        else{
+            return NotFound();
+        }
     }
         
     }
