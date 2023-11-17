@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.1",
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.3.23174.2",
+          "Microsoft.EntityFrameworkCore.DynamicLinq": "7.3.5",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.5",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -52,6 +53,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/8.0.0-preview.3.23174.2": {},
+      "Microsoft.EntityFrameworkCore.DynamicLinq/7.3.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.3.23174.2",
+          "System.Linq.Dynamic.Core": "1.3.5"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.EntityFrameworkCore.DynamicLinq.dll": {
+            "assemblyVersion": "7.3.5.0",
+            "fileVersion": "7.3.5.0"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.InMemory/7.0.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.3.23174.2"
@@ -196,6 +209,14 @@
             "fileVersion": "6.4.0.0"
           }
         }
+      },
+      "System.Linq.Dynamic.Core/1.3.5": {
+        "runtime": {
+          "lib/net7.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.3.5.0",
+            "fileVersion": "1.3.5.0"
+          }
+        }
       }
     }
   },
@@ -232,6 +253,13 @@
       "sha512": "sha512-qCFEj1m3Vr6PESwPBhwxEipUcPCSzx+ImhLfuWph3YElAjXNbM+p0JqbbdZrCQCB2NB2RKbeJ5uAj/WGEbbD9Q==",
       "path": "microsoft.entityframeworkcore.analyzers/8.0.0-preview.3.23174.2",
       "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.0-preview.3.23174.2.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.DynamicLinq/7.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7/RhtwcV35TGtAkxQPLcjM8oJo861Le9UV7QFO8ajQuRk/kO696Tkft+laQxI3c8Kk4zqHYyyU2Iuw8ktlcfgg==",
+      "path": "microsoft.entityframeworkcore.dynamiclinq/7.3.5",
+      "hashPath": "microsoft.entityframeworkcore.dynamiclinq.7.3.5.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.InMemory/7.0.5": {
       "type": "package",
@@ -337,6 +365,13 @@
       "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G8aRAVHSQ/Jmt6dekX+z4K3L6ecX3CizaIYSQoDUolPRIPBYmBCabT+/pq5fMAFM57aOchFn8PUufuVfLjvEZQ==",
+      "path": "system.linq.dynamic.core/1.3.5",
+      "hashPath": "system.linq.dynamic.core.1.3.5.nupkg.sha512"
     }
   }
 }

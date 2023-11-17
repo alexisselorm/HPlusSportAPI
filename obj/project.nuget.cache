@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4cAQupWt4EgRiztbNFBd/c6htrmDbm87m9NcOxtSsX1m0/ZERUavT2yUiZOp+QngfuhtfSB/XmhN0g2S+0nDgA==",
+  "dgSpecHash": "198eqv72gCYAKsdV7WhDwd8IKxQYrWDzQOlkR6SwTVEMLThuCuqNiwOpAJh1enrAd+PU2xxT1Grx9F7OnqtkRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\AGKove\\source\\repos\\HPlusSport\\HPlusSport.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.3.23174.2\\microsoft.entityframeworkcore.8.0.0-preview.3.23174.2.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.3.23174.2\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.3.23174.2.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.3.23174.2\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.3.23174.2.nupkg.sha512",
+    "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.entityframeworkcore.dynamiclinq\\7.3.5\\microsoft.entityframeworkcore.dynamiclinq.7.3.5.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.5\\microsoft.entityframeworkcore.inmemory.7.0.5.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.3.23174.8\\microsoft.extensions.caching.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
@@ -22,7 +23,8 @@
     "C:\\Users\\AGKove\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\AGKove\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "C:\\Users\\AGKove\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\AGKove\\.nuget\\packages\\system.linq.dynamic.core\\1.3.5\\system.linq.dynamic.core.1.3.5.nupkg.sha512"
   ],
   "logs": []
 }

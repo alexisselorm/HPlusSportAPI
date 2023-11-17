@@ -1,3 +1,4 @@
+using System.Linq.Dynamic.Core;
 using HPlusSport.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -38,6 +39,14 @@ namespace HPlusSport.API.Controllers;
                 products = products.Where(p=>p.Name.ToLower().Contains(queryParameters.Name.ToLower()
                 ));
             }
+            if (!string.IsNullOrEmpty(queryParameters.SortBy))
+            {
+                if (typeof(Product).GetProperty(queryParameters.SortBy) !=null)
+                {
+                    products = products.OrderBy($"{queryParameters.SortBy} {queryParameters.SortOrder}");
+                }
+            }
+            
             
             products = products.Skip(queryParameters.Size * (queryParameters.Page - 1))
                 .Take(queryParameters.Size);

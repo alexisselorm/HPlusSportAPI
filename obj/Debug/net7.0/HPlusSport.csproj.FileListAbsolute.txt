@@ -42,3 +42,5 @@ C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Lo
 C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.DynamicLinq.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
