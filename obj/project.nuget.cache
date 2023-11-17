@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "198eqv72gCYAKsdV7WhDwd8IKxQYrWDzQOlkR6SwTVEMLThuCuqNiwOpAJh1enrAd+PU2xxT1Grx9F7OnqtkRg==",
+  "dgSpecHash": "oSEARJeWxZfDmVusyxydoRJQmJTxAHAST7EF62fU7B6I1u3kjhOSn9AQSaGRr3zadAVXcfyGt/4TVffH7YAHqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\AGKove\\source\\repos\\HPlusSport\\HPlusSport.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.1\\microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.3.23174.2\\microsoft.entityframeworkcore.8.0.0-preview.3.23174.2.nupkg.sha512",
     "C:\\Users\\AGKove\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.3.23174.2\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.3.23174.2.nupkg.sha512",

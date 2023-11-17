@@ -44,3 +44,4 @@ C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Op
 C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
 C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.DynamicLinq.dll
 C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
+C:\Users\AGKove\source\repos\HPlusSport\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
