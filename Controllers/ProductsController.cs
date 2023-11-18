@@ -4,9 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace HPlusSport.API.Controllers;
-    [ApiController]
     [ApiVersion("1.0")]
-    [Route("v{apiVersion}/products")]
+    // [Route("v{apiVersion}/products")]
+    [Route("products")]
+    [ApiController]
     public class ProductsV1Controller : ControllerBase
     {
         private readonly ShopContext _context;
@@ -21,7 +22,7 @@ namespace HPlusSport.API.Controllers;
         [HttpGet]
         public async Task<ActionResult> GetAllProducts([FromQuery] ProductQueryParameters queryParameters)
         {
-            IQueryable<Product> products = _context.Products.Where(p=>p.IsAvailable==true);
+            IQueryable<Product> products = _context.Products;
             if (queryParameters.MinPrice != null)
             {
                 products = products.Where(p => p.Price >= queryParameters.MinPrice);
@@ -146,9 +147,11 @@ namespace HPlusSport.API.Controllers;
         }
 
 
-        [ApiController]
         [ApiVersion("2.0")]
-        [Route("v{apiVersion}/products")]
+        // [Route("v{apiVersion}/products")]
+        [Route("products")]
+        [ApiController]
+
         public class ProductsV2Controller : ControllerBase
         {
             private readonly ShopContext _context;
@@ -164,7 +167,7 @@ namespace HPlusSport.API.Controllers;
             [HttpGet]
             public async Task<ActionResult> GetAllProducts([FromQuery] ProductQueryParameters queryParameters)
             {
-                IQueryable<Product> products = _context.Products;
+                IQueryable<Product> products = _context.Products.Where(p=>p.IsAvailable==true);
                 if (queryParameters.MinPrice != null)
                 {
                     products = products.Where(p => p.Price >= queryParameters.MinPrice);
